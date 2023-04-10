@@ -6,7 +6,7 @@
 apt update && apt install wget unzip -y
 
 download_x-ui() {
-  DOWNLOAD_LINK="https://https://github.com/tt8296065/x-ui-tt/releases/download/1/x-ui-linux-arm64.tar.gz"
+  DOWNLOAD_LINK="https://https://github.com/tt8296065/x-ui-tt/releases/download/1/x-ui-linux-amd64.tar.gz"
   wget $DOWNLOAD_LINK
 }
   cd /root/
