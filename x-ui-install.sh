@@ -1,9 +1,6 @@
 #!/usr/bin/bash
 
-#查看运行状态 systemd status v2ray@vless
-#重启vless systemd restart v2ray@vless
-# need unzip and wget
-apt update && apt install wget unzip -y
+#这是土豆学习写的第一个shell脚本
 
 download_x-ui() {
   DOWNLOAD_LINK="https://https://github.com/tt8296065/x-ui-tt/releases/download/1/x-ui-linux-amd64.tar.gz"
